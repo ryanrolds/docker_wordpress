@@ -26,5 +26,5 @@ Test image:
 ```
 $ docker-compose stop
 $ docker-compose up -d db
-$ docker run -p 8001:80 --env-file local.env --network wordpress_default
+$ docker run -p 8001:80 --env-file local.env --network wordpress_default <build>
 ```

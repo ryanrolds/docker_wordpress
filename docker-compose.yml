@@ -20,8 +20,8 @@ services:
         restart: always
         volumes:
             - ./wp_data:/var/www/html  
-            - ./hello_world:/var/www/html/wp-content/plugins/hello_world 
-            - ./hello_theme:/var/www/html/wp-content/themes/hello_theme    
+            - ./custom_plugin:/var/www/html/wp-content/plugins/custom_plugin 
+            - ./custom_theme:/var/www/html/wp-content/themes/custom_theme    
         environment:
             WORDPRESS_DB_HOST: db:3306
             WORDPRESS_DB_USER: wordpress

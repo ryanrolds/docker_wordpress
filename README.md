@@ -8,4 +8,4 @@ $ cd docker_wordpress
 $ docker-compose up
 ```
 
-Visit http://localhost:8000/
+Visit http://localhost:8000/. The WP files are in `./html`.

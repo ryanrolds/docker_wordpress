@@ -8,4 +8,8 @@ $ cd docker_wordpress
 $ docker-compose up
 ```
 
-Visit http://localhost:8000/. The WP files are in `./html`.
+Visit http://localhost:8000/.
+
+## Notes
+
+The WP files are in `./wp_data` and are ignored by .gitignore. A plugin and theme have been mounted in to the plugins and themes directories. 
